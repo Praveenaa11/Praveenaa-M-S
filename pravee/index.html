@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookReckon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="parent">
+        <div class="hero">
+            <nav>
+                <div class="navhead">
+                    <p>Book<span>Reckon</span></p>
+                </div>
+                <!-- <ul>
+                    <li><a href="#">Explore</a></li>
+                    <li><a href="#">Try it out</a></li>
+                </ul> -->
+            </nav>
+            <div class="content-wrap">
+                <div class="content">
+                    <h2>From Your Last Read to Your Next Favorite – Get Recommendations Now!</h2>
+                    <div class="input-wrap">
+                        <input type="text" placeholder="Enter the title of the last book you read..." class="input">
+                        <button class="input-btn">
+                            Get Suggestions
+                            <img src="./assets/images/arrow.svg">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Suggestions -->
+         <section class="suggestions">
+            <h2>Your Suggestions</h2>
+            <div class="card-wrap">
+                <div class="nosuggestions">
+                    <img src="./assets/images/i.svg">
+                    <p>Search something to get suggestions</p>
+                </div>
+            </div>
+        </section>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
+
